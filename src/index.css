@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 50%);
+}
+
+.App h1,
+h2 {
+  text-align: center;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: gray;
+  color: white;
+  font-size: 40px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.negative {
+  font-weight: bold;
+  color: red;
+}
+.positive {
+  color: green;
+  font-weight: bold;
+}
+
+.App{
+  
+}
