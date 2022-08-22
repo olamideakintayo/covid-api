@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchData());
     // console.log(data.data.states);
-  }, []);
+  }, [dispatch]);
 
   if (loading === true) {
     return <p className="loader">Loading ...</p>;
